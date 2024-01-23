@@ -1,0 +1,143 @@
+.tdcard--container
+{
+    width: 300px;
+    height: 200px;
+   
+   
+   
+    
+    img 
+    {
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+        z-index: 0;
+        position: relative;
+        border-radius: 10px;
+       
+    }
+    .tdcard--content
+    {
+        height: 100%;
+        position: absolute;
+        z-index: 3;
+        top: 50%;
+        transform: translateX(50px);
+      
+       
+        p 
+        {
+           
+            color:white;
+            font-weight: 700;
+            font-size: 22px;
+            letter-spacing: 1px;
+            position: absolute;
+            width:max-content;
+        }
+    }
+}
+.ourtrendingcard--container
+{
+    width: calc(33.33% - 50px);
+    border:1px solid rgb(185, 182, 182);
+    padding: 24px;
+    border-radius: 10px;
+    .ourtrendingcard--img
+    {
+        img 
+        {
+            height: 250px;
+            border-radius: 6px;
+            width: 100%;
+        }
+        
+    }
+    .ourtrendingcard--content
+    {
+        width: 100%;
+        text-align: start;
+     
+        h1 
+        {
+            color:rgb(86, 85, 85);
+            font-size: 30px;
+        }
+        p 
+        {
+          
+            font-size: 18px;
+            align-items: center;
+              
+        }
+    }
+    .ourtrendingcard--location
+    {
+        display: flex;
+        gap:1em;
+        p 
+        {
+            margin:4px;
+            font-size: 18px;
+           color:gray;
+           font-size: 16px;
+        }
+    }
+    .otc--btn
+    {
+        display: flex;
+        justify-content: space-between;
+        margin:2px;
+        p 
+        {
+           margin:1px;
+            font-size: 16px;
+            font-weight: 700;
+            
+        }
+    }
+}
+.testimonialcard--img
+{
+    display: flex;
+    img 
+    {
+        height: 80px;
+        border-radius: 100%;
+        object-fit: cover;
+        padding:10px;
+    }
+}
+.testimonialcard--container{
+ 
+width:500px;
+display: inline-block;
+background-color: rgb(255, 255, 255);
+padding:20px;
+
+}
+.name--testimonial{
+    margin:2px;
+    color:#0c5e99;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: start;
+}
+.work--testimonial
+{
+    margin:3px;
+    text-align: start;
+    color:gray;
+}
+.info--testimonial
+{
+    padding:20px 10px;
+}
+.testimonial--description{
+    text-align: start;
+    color:gray;
+    p 
+    {
+        margin:5px;
+    }
+}

@@ -1,0 +1,18 @@
+.btn--container
+{
+    background-color: #0c5e99;
+    justify-content: center;
+    display: flex;
+    border:none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    cursor: pointer;
+    p 
+    {
+        color:white;
+        font-size: 16px;
+        margin:1px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        }
+}
