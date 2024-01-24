@@ -7,10 +7,11 @@
 .heropage--content {
   padding: 50px 50px;
   position: absolute;
-  top: 40%;
+  top: 30%;
+  left: 25%;
   margin: auto;
-  text-align: center; 
- 
+  text-align: center;
+
   h1 {
     margin: 0px;
     font-size: 65px;
@@ -28,19 +29,15 @@
   }
 }
 
-
 .heropsearch--container {
   display: flex;
   background-color: white;
   padding: 50px 40px;
-
   box-shadow: 5px 5px 10px 1px rgb(93, 93, 93);
-
   position: absolute;
   bottom: 26%;
   width: 100%;
   max-width: 1200px;
-
   border-radius: 10px;
 }
 
@@ -50,7 +47,6 @@
   border: none;
   display: flex;
   align-items: center;
-
   gap: 5px;
   justify-content: center;
   text-align: center;
@@ -60,7 +56,6 @@
     background-color: transparent;
     border: none;
     outline: none;
-
     font-size: 15px;
   }
 }
@@ -69,30 +64,27 @@
   background-color: white;
   padding: 50px 50px;
   box-shadow: 5px 5px 3px 0.5px #888888;
-  
+
   border-radius: 10px;
   display: flex;
-   
-max-width: 100%;
-  gap:10px;
+
+  max-width: 100%;
+  gap: 10px;
 }
 .heropage--search {
   position: absolute;
   bottom: 21%;
- 
-  align-items: center;
 
+  align-items: center;
 
   left: 50%;
   transform: translateX(-50%);
 }
 .search--field {
- 
   display: flex;
   background-color: rgb(219, 222, 224);
   align-items: center;
   padding-left: 10px;
-
   gap: 10px;
   border-radius: 3px;
   input {

@@ -5,6 +5,7 @@ import { OurTrendingPacdata } from '../Data/OurTrendingPackData'
 import Bluebutton from '../Components/Button/Bluebutton'
 
 const OurTrendingPac = () => {
+  console.log(OurTrendingPacdata)
   return (
     <>
     <div className='ourtrendingpac--container'>
@@ -15,7 +16,7 @@ const OurTrendingPac = () => {
            {
             OurTrendingPacdata.map((item)=>
             (
-              <OurTrendingPackageCard/>
+              <OurTrendingPackageCard item={item}/>
             ))
            }
             </div>

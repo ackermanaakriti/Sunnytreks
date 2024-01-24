@@ -6,6 +6,7 @@ import Mainbutton from '../Buttons/Mainbutton'
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { ThemeContext } from '../../../ThemeSetting/ThemeContext'
 import Topbar from '../../../Global/Navbar/Topbar'
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
 const Navbar = () => {
@@ -20,6 +21,8 @@ const Navbar = () => {
     const toggleListVisibility = () => {
       setIsListVisible((prev) => !prev);
     };
+
+    
   return (
   <>
  
@@ -37,7 +40,18 @@ const Navbar = () => {
                 <Grid xs={7}>
                     <div className='navlinkss--container'>
                         <ul>
-                            <li>Destinations</li>
+                            <li onClick={toggleListVisibility}>Destinations <ExpandMoreIcon/>
+
+                            {isListVisible&&(
+                                <ul className='navlinks--subul'>
+                                <li>Pokhara</li>
+                                <li>Mustang</li>
+                                <li>Chitwan</li>
+                                <li>Dolpa</li>
+                                </ul>
+                            )}
+                           
+                             </li>
                             <li>Services</li>
                             <li>About Us</li>
                             <li>Contact Us</li>

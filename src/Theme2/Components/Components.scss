@@ -1,0 +1,22 @@
+
+@import '../Style.scss';
+.logo--containerr
+{
+    img 
+    {
+        height: 80px;
+    }
+}
+.button---main
+{
+    padding:10px 20px;
+    font-weight: 500;
+    background-color: $primarycolor;
+    color:white;
+    border:none;    
+    font-size: 16px;
+    border-radius: 5px;
+}
+.button---main:hover{
+    background-color: $secondarycolor ;
+}

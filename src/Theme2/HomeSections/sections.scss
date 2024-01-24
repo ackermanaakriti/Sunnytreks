@@ -1,0 +1,16 @@
+.bannerpage--container
+{
+    position: relative;
+    background-image: url('../../images/lakee.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    width:100%;
+    background-position: center;
+    object-fit: contain;
+   
+}
+.bannerpage--content
+{
+    position: absolute;
+    top:10%;
+}

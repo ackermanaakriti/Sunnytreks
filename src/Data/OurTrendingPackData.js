@@ -11,7 +11,8 @@ export const OurTrendingPacdata=[
         location:'Chitawan,Tanzania',
         day:'7',
         type:'Jungle Safari',
-        price:'1,455'
+        price:'1,455',
+        image:'../images/hiking.jpg'
     },
     {
         title:'Climbing Mount Annapurna ',

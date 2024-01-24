@@ -3,6 +3,7 @@ import React, { useContext } from 'react';
 import { ThemeContext } from './ThemeContext';
 import Home from '../Pages/Home';
 import Homee from '../Theme1/Pages/Home';
+import Homme from '../Theme2/Pages/Homme';
 
 const Homepages = () => {
   const { homepage } = useContext(ThemeContext);
@@ -14,7 +15,7 @@ const Homepages = () => {
       case 'themeTwo':
         return <Homee/>;
       case 'themeThree':
-        return 'hfhfh';
+        return <Homme/>;
       default:
         return null;
     }

@@ -1,13 +1,13 @@
 export const TdvData=[
-    { title: 'bhaktapur,Nepal', imgurl:'../images/pokhara.jpg'},
-    { title: 'Pokhara ,Nepal ',imgurl:'../images/pokhara.jpg'},
+    { title: 'bhaktapur,Nepal', image:'../images/pokhara.jpg'},
+    { title: 'Pokhara ,Nepal ',image:'../images/pokhara.jpg'},
 
-    { title: 'Dolpa,Nepal', imgurl:'../images/pokhara.jpg'},
+    { title: 'Dolpa,Nepal', image:'../images/pokhara.jpg'},
 
-    { title: 'Mustang Nepal', imgurl:'../images/pokhara.jpg'},
-    { title: 'Dolpa,Nepal', imgurl:'../images/pokhara.jpg'},
+    { title: 'Mustang Nepal', image:'../images/pokhara.jpg'},
+    { title: 'Dolpa,Nepal', image:'../images/pokhara.jpg'},
 
-    { title: 'Mustang Nepal', imgurl:'../images/pokhara.jpg'},
+    { title: 'Mustang Nepal', image:'./images/hiking.jpg'},
 
  
 ]
