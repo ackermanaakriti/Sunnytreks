@@ -7,6 +7,7 @@ import Brightness7Icon from '@mui/icons-material/Brightness7';
 import { ThemeContext } from '../../../ThemeSetting/ThemeContext'
 import Topbar from '../../../Global/Navbar/Topbar'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -34,7 +35,8 @@ const Navbar = () => {
             <Grid container>
                 <Grid xs={2}>
                     <div className='logo--container'>
-                        <img src={logo}/>
+                        <Link style={{textDecoration:'none'}} to='/'> <img src={logo}/></Link>
+                       
                     </div>
                 </Grid>
                 <Grid xs={7}>
@@ -44,7 +46,8 @@ const Navbar = () => {
 
                             {isListVisible&&(
                                 <ul className='navlinks--subul'>
-                                <li>Pokhara</li>
+                                    <Link style={{textDecoration:'none'}} to='/singlepage'>    <li>Pokhara</li></Link>
+                            
                                 <li>Mustang</li>
                                 <li>Chitwan</li>
                                 <li>Dolpa</li>
@@ -53,8 +56,8 @@ const Navbar = () => {
                            
                              </li>
                             <li>Services</li>
-                            <li>About Us</li>
-                            <li>Contact Us</li>
+                          <Link style={{textDecoration:'none'}} to='/aboutus'><li>About Us</li></Link>  
+                          <Link style={{textDecoration:'none'}} to='/contactus'><li>Contact Us</li></Link>  
                         </ul>
                     </div>
                 </Grid>

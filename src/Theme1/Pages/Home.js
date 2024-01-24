@@ -7,18 +7,20 @@ import AdventureActivity from '../HomeSection/AdventureActivity'
 import SpecialTraveloff from '../HomeSection/SpecialTraveloff'
 import Footer from '../../Global/Footer'
 import TourList from '../HomeSection/TourList'
+import Layout from '../Layout'
 
 const Homee = () => {
   return (
     <>
-    <Navbar/>
+    <Layout>
     <Heropage/>
     <SearchDestination/>
     <TopNotchDestination/>
     <AdventureActivity/>
     <SpecialTraveloff/> 
     <TourList/>
-    <Footer/>
+    </Layout>
+    
     
     
     </>

@@ -16,7 +16,7 @@ const TopNotchDestination = () => {
           <div className="topnotchdes--wrapper">
             <Grid container spacing={2}>
               <Grid xs={7}>
-                <div style={{ display: "flex", gap: "30px" }}>
+                <div className="tdcardfull--contaner">
                   <TopDestinationCardFullh />
                   <TopDestinationCardFullh />
                 </div>

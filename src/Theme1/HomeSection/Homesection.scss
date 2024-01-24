@@ -43,6 +43,12 @@
   }
 }
 
+.tdcardfull--contaner
+{
+  display: flex;
+  gap:30px
+}
+
 .sections--header {
   font-size: $fontSizeLarge;
   color: $secondaryColor;
@@ -84,4 +90,50 @@
 }
 .tourlist--container {
   padding: 60px 0px;
+}
+
+@media(max-width:1024px)
+{
+  .heropagee--content
+  {
+    h1{
+      font-size: 55px;
+    }
+    p 
+    {
+      font-size: 16px;
+    }
+  }
+  .searchdestination--wrapper
+  {
+    max-width: 970px;
+  }
+  .tdcardfull--contaner
+  {
+    margin-left:24px;
+  }
+  .adac--logo
+  {
+    img
+    {
+      height: 60px;
+    }
+    h3 
+    {
+      font-size: 14px;
+    }
+    p 
+    {
+      font-size: 14px;
+    }
+  }
+  .specialoff--wrapper
+  {
+    position: relative;
+    
+  }
+}
+@media(max-width:992px)
+{
+  
 }

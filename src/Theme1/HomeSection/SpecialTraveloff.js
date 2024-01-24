@@ -14,13 +14,13 @@ const SpecialTraveloff = () => {
              odit placeat. Adipiscing repudiandae eius cursus? Nostrum magnis maxime curae placeat.</p>
             <div className='specialoff--wrapper'>
                 <Grid container>
-                    <Grid md={4} xs={12}>
+                    <Grid md={4}lg={4}  xs={12}>
                     <SpecialoffCard/>
                     </Grid>
-                    <Grid md={4} xs={12}>
+                    <Grid md={4} lg={4} xs={12}>
                     <SpecialoffCard/>
                     </Grid>
-                    <Grid  md={4} xs={12 }>
+                    <Grid  md={4} lg={4} xs={12 }>
                     <SpecialoffCard/>
                     </Grid>
                 </Grid>

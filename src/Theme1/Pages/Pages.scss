@@ -1,0 +1,188 @@
+@import '../Styles.scss';
+.aboutus--container
+{
+    background-image: url('../../images/theme2.webp');
+   
+    height: 70vh;
+    object-fit: contain;
+
+    // transform: scale(1.5);
+    // transition: transform 0.3s ease-in-out;
+    // background-repeat: no-repeat;
+    // position: relative;
+   .aboutus--content{
+    position: absolute;
+  bottom:40%;
+  padding:0px ;
+ width: 50%;
+ text-align: center;
+ left:23%;
+ 
+  
+  
+   }
+}
+
+.pages--header
+{
+    color:$primaryColor;
+    font-size: $fontSizeLarge;
+    margin:4px;
+}
+.pages--subheader
+{
+   
+    color: white;
+    font-size: 22px;
+    margin:8px;
+   
+   
+}
+.sections--header {
+    font-size: $fontSizeLarge;
+    color: $secondaryColor;
+    margin: 5px;
+    line-height: 1.2;
+  }
+  .bestinmarkte--container
+  {
+    padding:50px 0px;
+  }
+  .header--info
+  {
+    padding:0px 200px;
+    text-align: center;
+  }
+  .p--headerr {
+   
+    margin: 5px;
+    color: gray;
+    font-size: 16px;
+  
+    
+  }
+  .about--service{
+
+    display: flex;
+    flex:wrap;
+    padding:20px;
+
+    .about--service--icon
+    {
+        background-color: #0791BE;
+        color: #ffffff;
+       
+        height: 80px;
+        line-height: 80px;
+        padding: 10px;
+        text-align: center;
+        img 
+        {
+            height: auto;
+            max-width: 100%;
+            vertical-align: top;
+        }
+    }
+    .about--service--content
+    {
+        text-align: start;
+ h4 
+ {
+    margin:4px 0px 10px 10px;
+    color:$blue;
+ }
+ p 
+ {
+    margin:4px 10px;
+ }
+    }
+
+  }
+  .ourser
+  {
+    padding-top: 40px;
+  }
+
+  .singlepage--container
+  {
+    background-image: url('../../images/theme2.webp');
+    height: 90vh;
+    position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    object-fit: cover;
+   
+  }
+  .singlepage--contents
+  {
+    padding:80px 20px;
+    img 
+    {
+        height: 500px;
+    }
+  }
+  .singlepage--content--info
+  {
+    padding:0px 180px;
+    text-align: start;
+  }
+  .detail--list
+  {
+   
+    padding:90px 90px;
+    display: flex;
+    flex-direction: column;
+
+
+    .detail--address
+    {
+         display: flex;
+         gap:15px;
+         text-align: start;
+       margin-top: 20px;
+         span 
+         {
+            background-color: #0791BE;
+            padding: 13px 15px;
+         }
+         p {
+            color:gray;
+            font-size: 16px;
+            margin:2px;
+         }
+         h4 
+         {
+            margin:4px;
+            font-size: 18px;
+         }
+    }
+  }
+  .map
+  {
+    padding:40px 30px 70px  30px;
+    border:none;
+    iframe
+    {
+        border:none;
+    }
+  }
+  .review--booking
+  {
+   
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px ;
+    .place--title
+    {
+        p {
+            font-size: 18px;
+            color:gray;
+            text-align: start;
+            margin:4px;
+        }
+    }
+  }
+  .singlepage--img--container
+  {
+    padding-top: 50px;
+  }
